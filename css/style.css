@@ -1,0 +1,42 @@
+#change-up{
+  display: none;
+}
+#more-change{
+  display: none;
+}
+#wally{
+  display: none;
+}
+.clickable{
+  cursor: pointer;
+  color: blue;
+}
+.clickable:hover{
+  text-decoration: underline;
+}
+
+.red-click{
+  color: red;
+  font-size:200px;
+
+  border: yellow 3px solid;
+  background-color: grey;
+  cursor: pointer;
+}
+.red-click:hover{
+  text-decoration: underline;
+}
+body{
+  background-image: url("https://img-aws.ehowcdn.com/877x500p/photos.demandstudios.com/getty/article/81/52/97521178.jpg");
+}
+.desert{
+  background-image: url("https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Deserts/deserts-palm.ngsversion.1478272215144.jpg");
+}
+.hellfire{
+  background-image:
+  url("https://vignette.wikia.nocookie.net/criminal-case-grimsborough-fanfiction/images/d/d2/Hellfire.jpg/revision/latest?cb=20150816093712");
+}
+.clouds{
+  background-image:
+  url("http://www.freepngimg.com/download/cloud/10-cloud-png-image.png"),url("https://vignette.wikia.nocookie.net/criminal-case-grimsborough-fanfiction/images/d/d2/Hellfire.jpg/revision/latest?cb=20150816093712");
+}

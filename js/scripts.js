@@ -1,0 +1,22 @@
+$(function(){
+  $(".clickable").click(function(){
+    $("#change-up").fadeToggle();
+    $("#other-change").fadeToggle();
+    $("#more-change").fadeToggle();
+  });
+  $(".red-click").click(function(){
+    $("#wally").fadeToggle();
+  });
+  $("button#green").click(function(){
+    $("body").removeClass();
+    $("body").addClass("desert");
+  });
+  $("button#red").click(function(){
+    $("body").removeClass();
+    $("body").addClass("hellfire");
+  });
+  $("button#yellow").click(function(){
+    $("body").removeClass();
+    $("body").addClass("clouds");
+  });
+});
